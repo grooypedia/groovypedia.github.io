@@ -33,8 +33,8 @@
 
     <link rel="stylesheet" href="css/loaders/loader.min.css">
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
     <script>
       !function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);
@@ -74,7 +74,7 @@
     <div class="loader">
       <div class="loader-content">
         <div class="loader-logo slideInDown">
-          <img src="img/logo/logo.png" alt="Nua">
+          <img src="img/logo/logo.png" alt="Groovypedia">
         </div>
         <div class="loader-caption slideInUp">
           <p class="loading-text">Loading</p>
@@ -163,52 +163,29 @@
 
               <!-- Logo Start-->
               <div class="logo">
-                <img src="img/logo/logo.png" alt="Nua Kağıt">
+                <img src="img/logo/logo.png" alt="Groovypedia">
               </div>
               <!-- Logo End-->
 
               <!-- Main Headline Start -->
-              <div class="headline">
-                <!-- <h1 style="color:white;">Nua</h1> -->
-                <p>A music Platform, <br>Record Label <br>and Digital Distribution Company.</p>
-                <!-- <div id="rotate">
-                  <div>
-                    <p>We</p>
-                    <b>
-                      <span>
-                        produce<br /> 
-                        distribute<br />
-                        finance<br />
-                        support</span> 
-                    </b>
-                    <p>Music</p>
-                  </div>
-                </div> -->
+              <div class="headline py-5">
+                <!-- <h1 style="color:white;">Groovypedia</h1> -->
+                <h3>A music Platform, <br>Record Label <br>& <br>Digital Distribution Company.</h3>
               </div>
 
-              
+              <div id="brands" class="text-center">
+                <a href="https://www.youtube.com/c/groovypedia" target="_blank"><img src="img/logo/youtube.png" alt=""></a>
+                <a href="https://open.spotify.com/playlist/0jx5quM8Vy7qhrY7ERSGAX?si=_wIWrOmhQA62ona2URjCng" target="_blank"><img src="img/logo/spotify.png" alt=""></a>
+                <a href="https://music.apple.com/tr/search?term=groovypedia" target="_blank"><img src="img/logo/itunes.png" alt=""></a>
+                <a href="https://www.deezer.com/search/groovypedia/track" target="_blank"><img src="img/logo/deezer.png" alt=""></a>
+                <a href="https://soundcloud.com/groovypedia" target="_blank"><img src="img/logo/soundcloud.png" alt=""></a>
+              </div>
               
               <!-- Main Headline End -->
 
               <!-- Socials Start -->
               <div class="socials">
                 <ul>
-                  <li>
-                    <a title="Youtube" href="https://www.youtube.com/c/groovypedia" target="_blank" class="social-yt"><i class="fab fa-youtube"></i></a>
-                  </li>
-                  <li>
-                    <a title="Spotify" href="https://open.spotify.com/playlist/0jx5quM8Vy7qhrY7ERSGAX?si=_wIWrOmhQA62ona2URjCng" target="_blank" class="social-sp"><i class="fab fa-spotify"></i></a>
-                  </li>
-                  <li>
-                    <a title="iTunes" href="https://music.apple.com/tr/search?term=groovypedia" target="_blank" class="social-it"><i class="fab fa-itunes"></i></a>
-                  </li>
-                  <li>
-                    <a title="Deezer" href="https://www.deezer.com/search/groovypedia/track" target="_blank" class="social-dz"><i class="fab fa-deezer"></i></a>
-                  </li>
-                  <li>
-                    <a title="Soundcloud" href="https://soundcloud.com/groovypedia" target="_blank" class="social-sc"><i class="fab fa-soundcloud"></i></a>
-                  </li>
-
                   <li>
                     <a title="Twitter" href="https://twitter.com/groovypedia" target="_blank" class="social-tw"><i class="fab fa-twitter"></i></a>
                   </li>
@@ -270,7 +247,7 @@
               <div class="image" style="background-image:url(img/photos/keyboard.jpg);">              
               <!-- Logo Start-->
               <!-- <div class="logo">
-                <img src="img/logo/logo.png" alt="Nua Kağıt">
+                <img src="img/logo/logo.png" alt="Groovypedia">
               </div> -->
               <!-- Logo End-->
               </div>
@@ -434,7 +411,8 @@
                   <p>Groovypedia is therefore also interested in supporting its artists financially in the form of advances.</p>
                 </div>
                 <!-- Section Title End -->
-
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSftclX_nd8zNcOZndtqvsX3R6cDj4JZ2hhvxRJ5b9-J1UNbCg/viewform?vc=0&c=0&w=1&flr=0" target="_blank">
+                  <button type="button" class="btn btn-dark mt-5">Royalty Payment Application Form</button></a>
               </div>
             </div>
             <!-- Portfolio Section Info End -->
@@ -456,7 +434,7 @@
               <div class="image" style="background-image:url(img/photos/microphone.jpg);">              
               <!-- Logo Start-->
               <!-- <div class="logo">
-                <img src="img/logo/logo.png" alt="Nua Kağıt">
+                <img src="img/logo/logo.png" alt="Groovypedia">
               </div> -->
               <!-- Logo End-->
               </div>
@@ -513,35 +491,23 @@
                   <span class="divider"></span>
                   <p class="contact-text"><a href="mailto:hi@groovypedia.com">hi@groovypedia.com</a>
                   </p>
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSftclX_nd8zNcOZndtqvsX3R6cDj4JZ2hhvxRJ5b9-J1UNbCg/viewform?vc=0&c=0&w=1&flr=0" target="_blank">
-                    <button type="button" class="btn btn-dark">Royalty Payment Application Form</button>
-                </a>
+                  
                   <!-- <a href="#" id="writealine-trigger" class="btn btn-line">
                     <span>write a line</span>
                   </a> -->
-                  
+                  <div id="brands" class="text-center">
+                    <a href="https://www.youtube.com/c/groovypedia" target="_blank"><img src="img/logo/youtube.png" alt=""></a>
+                    <a href="https://open.spotify.com/playlist/0jx5quM8Vy7qhrY7ERSGAX?si=_wIWrOmhQA62ona2URjCng" target="_blank"><img src="img/logo/spotify.png" alt=""></a>
+                    <a href="https://music.apple.com/tr/search?term=groovypedia" target="_blank"><img src="img/logo/itunes.png" alt=""></a>
+                    <a href="https://www.deezer.com/search/groovypedia/track" target="_blank"><img src="img/logo/deezer.png" alt=""></a>
+                    <a href="https://soundcloud.com/groovypedia" target="_blank"><img src="img/logo/soundcloud.png" alt=""></a>
+                  </div>
                 </div>
                 <!-- Section Title End -->
 
               </div>
               <div class="socials">
                 <ul>
-                  <li>
-                    <a title="Youtube" href="https://www.youtube.com/c/groovypedia" target="_blank" class="social-yt"><i class="fab fa-youtube"></i></a>
-                  </li>
-                  <li>
-                    <a title="Spotify" href="https://open.spotify.com/playlist/0jx5quM8Vy7qhrY7ERSGAX?si=_wIWrOmhQA62ona2URjCng" target="_blank" class="social-sp"><i class="fab fa-spotify"></i></a>
-                  </li>
-                  <li>
-                    <a title="iTunes" href="https://music.apple.com/tr/search?term=groovypedia" target="_blank" class="social-it"><i class="fab fa-itunes"></i></a>
-                  </li>
-                  <li>
-                    <a title="Deezer" href="https://www.deezer.com/search/groovypedia/track" target="_blank" class="social-dz"><i class="fab fa-deezer"></i></a>
-                  </li>
-                  <li>
-                    <a title="Soundcloud" href="https://soundcloud.com/groovypedia" target="_blank" class="social-sc"><i class="fab fa-soundcloud"></i></a>
-                  </li>
-
                   <li>
                     <a title="Twitter" href="https://twitter.com/groovypedia" target="_blank" class="social-tw"><i class="fab fa-twitter"></i></a>
                   </li>
@@ -584,7 +550,7 @@
               <div class="image" style="background-image:url(img/photos/guitar.jpg);">              
               <!-- Logo Start-->
               <!-- <div class="logo">
-                <img src="img/logo/logo.png" alt="Nua Kağıt">
+                
               </div> -->
               <!-- Logo End-->
               </div>
